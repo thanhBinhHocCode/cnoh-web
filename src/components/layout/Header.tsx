@@ -25,7 +25,9 @@ export function Header() {
           to="/" 
           className="flex items-center gap-2 transition-opacity hover:opacity-80"
         >
-          <img src="/logoCNOH.jpg" className="h-10 w-auto" />
+           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary">
+    <span className="text-lg font-bold text-primary-foreground">O</span>
+  </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold leading-tight text-primary">
               Cháo Nghêu

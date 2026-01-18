@@ -267,7 +267,7 @@ Tin nhắn: ${formData.message}
                         <div>
                           <p className="font-medium text-foreground">Hotline nhượng quyền</p>
                           <a
-                            href="tel:0901234567"
+                            href="tel:096 756 44 41"
                             className="text-secondary hover:underline"
                           >
                             090 123 4567
@@ -282,7 +282,7 @@ Tin nhắn: ${formData.message}
                             href="mailto:nhuongquyen@chaongheuohoen.vn"
                             className="text-secondary hover:underline"
                           >
-                            nhuongquyen@chaongheuohoen.vn
+                            food.langnamo@gmail.com
                           </a>
                         </div>
                       </div>
@@ -291,7 +291,7 @@ Tin nhắn: ${formData.message}
                         <div>
                           <p className="font-medium text-foreground">Văn phòng</p>
                           <p className="text-muted-foreground">
-                            Số XX, Đường ABC, Quận XYZ, TP.HCM
+                            08 An Thượng 37, Q.Ngũ Hành Sơn, TP.Đà Nẵng.
                           </p>
                         </div>
                       </div>

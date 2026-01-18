@@ -8,17 +8,17 @@ import { Facebook, Instagram, Star, ChevronRight, Percent, Flame } from "lucide-
 const featuredDishes = [
   {
     id: 1,
-    name: "Cháo Nghêu Đặc Biệt",
-    price: "45.000đ",
+    name: "Cháo Nghêu Đặc Biệt O Hoèn 1",
+    price: "40.000đ",
     image: "/placeholder.svg",
-    description: "Cháo nghêu đậm đà với nghêu tươi sống",
+    description: "Nghêu - Hàu - Sườn",
   },
   {
     id: 2,
-    name: "Cháo Nghêu Trứng Bắc Thảo",
-    price: "55.000đ",
+    name: "Cháo Nghêu Đặc Biệt O Hoèn 2",
+    price: "40.000đ",
     image: "/placeholder.svg",
-    description: "Kết hợp hoàn hảo nghêu và trứng bắc thảo",
+    description: "Nghêu - Hàu - Tôm",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const featuredDishes = [
   },
   {
     id: 4,
-    name: "Trà Đào Cam Sả",
-    price: "25.000đ",
+    name: "Trà Quế Mật Ong",
+    price: "35.000đ",
     image: "/placeholder.svg",
     description: "Thức uống giải khát hoàn hảo",
   },
@@ -39,16 +39,17 @@ const featuredDishes = [
 const testimonials = [
   {
     id: 1,
-    name: "Nguyễn Văn A",
+    name: "Liên Kim Long",
     rating: 5,
-    comment: "Cháo nghêu ở đây ngon nhất mà tôi từng ăn! Nghêu tươi, nước dùng đậm đà.",
+    comment: "Mình từng có dịp ghé quán và dùng bữa tối ở đây, cháo thật sự rất ngon, đặc biệc mình thích nhất là trà mật ong quế, một lịch trình "must have" khi mng ghé Đà Nẵng nhé
+Hôm đó mình còn để quên đồ ở quán, mà mai lại có chuyến bay sáng sớm, may thay liên hệ được quán và đã được hỗ trợ nhận lại trong đêm, xin gửi lời cảm ơn thật nhiều đến O Hoèn ạ!",
     avatar: "/placeholder.svg",
   },
   {
     id: 2,
-    name: "Trần Thị B",
+    name: "Tori Min",
     rating: 5,
-    comment: "Quán sạch sẽ, phục vụ nhanh nhẹn. Sẽ quay lại ủng hộ!",
+    comment: "Best place ever❣️❣️delicious and healthy ❣️ 10 from 10 😀",
     avatar: "/placeholder.svg",
   },
   {
@@ -63,9 +64,9 @@ const testimonials = [
 const promotions = [
   {
     id: 1,
-    title: "Giảm 20% cho đơn đầu tiên",
-    description: "Áp dụng khi đặt qua app",
-    code: "OHOEN20",
+    title: "Giảm 20% khi đăng ký thành viên",
+    description: "Áp dụng khi nhấn quan tâm Zalo Cháo Nghêu O Hoèn",
+    code: "Trong tin nhắn ZALO",
   },
   {
     id: 2,
@@ -90,7 +91,7 @@ export default function HomePage() {
               Đậm đà hương vị truyền thống
             </p>
             <p className="mt-2 animate-fade-in text-primary-foreground/80">
-              Thưởng thức những bát cháo nghêu thơm ngon, được nấu từ nghêu tươi sống mỗi ngày
+              Thưởng thức những bát cháo nghêu, hàu, tôm, sườn thơm ngon, được nấu từ nguyên liệu tươi sống mỗi ngày
             </p>
             <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
               <Button
@@ -125,7 +126,7 @@ export default function HomePage() {
             </span>
             <div className="flex gap-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/chaongheuohoen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-transform hover:scale-105"

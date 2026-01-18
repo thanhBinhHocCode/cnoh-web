@@ -22,8 +22,8 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm opacity-90">
-              Đậm đà hương vị truyền thống. Mang đến cho bạn những bát cháo nghêu 
-              thơm ngon, đậm đà nhất.
+              Hành trình lan tỏa giá trị truyền thống.
+              Sản phẩm tử tế, phục vụ tận tâm.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>1900 xxxx xx</span>
+                <span>096 756 44 41</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
@@ -78,7 +78,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="mt-1 h-4 w-4 flex-shrink-0" />
-                <span>Số XX, Đường ABC, Quận XYZ, TP.HCM</span>
+                <span>08 An Thượng 37, TP. Đà Nẵng</span>
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold">Theo dõi chúng tôi</h3>
             <div className="flex gap-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/chaongheuohoen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-foreground text-primary transition-transform hover:scale-110"
@@ -130,7 +130,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="mt-8 border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-80">
-          <p>© 2024 Cháo Nghêu O Hoèn. Tất cả quyền được bảo lưu.</p>
+          <p>© 2026 Cháo Nghêu O Hoèn</p>
         </div>
       </div>
     </footer>

@@ -22,7 +22,7 @@ const jobs = [
   {
     id: 2,
     title: "Nhân viên bếp",
-    location: "Quận 1, Quận 3",
+    location: "Nam Ô",
     type: "Full-time",
     salary: "6 - 8 triệu/tháng",
     description: "Chuẩn bị nguyên liệu, nấu nướng, đảm bảo vệ sinh an toàn thực phẩm.",
@@ -36,7 +36,7 @@ const jobs = [
   {
     id: 3,
     title: "Quản lý cửa hàng",
-    location: "Quận 7",
+    location: "Tất cả chi nhánh",
     type: "Full-time",
     salary: "10 - 15 triệu/tháng",
     description: "Quản lý hoạt động cửa hàng, nhân sự, đảm bảo chất lượng dịch vụ.",
@@ -122,7 +122,7 @@ export default function CareersPage() {
                 <div className="mb-4 text-4xl">🎉</div>
                 <h3 className="font-bold text-foreground">Môi trường vui vẻ</h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Đồng nghiệp thân thiện, năng động
+                  Đồng nghiệp thân thiện, năng động, đặc biệt có Bình Sếp Lớn.
                 </p>
               </CardContent>
             </Card>
@@ -196,7 +196,7 @@ export default function CareersPage() {
             Liên hệ tuyển dụng
           </h2>
           <p className="mt-2 text-muted-foreground">
-            Email: tuyendung@chaongheuohoen.vn | Hotline: 028 xxxx xxxx
+            Email: food.langnamo@gmail.com | Hotline: 096 756 44 41
           </p>
         </div>
       </section>

@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cháo Nghêu O Hoèn Design System
+   Brand Colors: Đỏ đô (#8B1538), Kem (#FDF5E6), Xanh ngọc (#008B8B)
+   All colors in HSL format
+*/
+
+@layer base {
+  :root {
+    /* Brand Colors - Cháo Nghêu O Hoèn */
+    --brand-red: 345 75% 31%;           /* Đỏ đô #8B1538 */
+    --brand-cream: 39 100% 97%;         /* Kem #FDF5E6 */
+    --brand-teal: 180 100% 27%;         /* Xanh ngọc #008B8B */
+    --brand-brown: 30 30% 50%;          /* Nâu nhạt for borders */
+    --brand-brown-light: 30 25% 75%;    /* Nâu nhạt lighter */
+    
+    /* Core Design Tokens */
+    --background: 39 100% 97%;          /* Kem background */
+    --foreground: 345 75% 20%;          /* Dark red-brown text */
+
+    --card: 39 100% 98%;                /* Slightly lighter cream */
+    --card-foreground: 345 75% 20%;
+
+    --popover: 39 100% 98%;
+    --popover-foreground: 345 75% 20%;
+
+    --primary: 345 75% 31%;             /* Đỏ đô */
+    --primary-foreground: 39 100% 97%;  /* Kem */
+
+    --secondary: 180 100% 27%;          /* Xanh ngọc */
+    --secondary-foreground: 39 100% 97%;
+
+    --muted: 39 50% 90%;
+    --muted-foreground: 345 30% 40%;
+
+    --accent: 180 100% 27%;             /* Xanh ngọc */
+    --accent-foreground: 39 100% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 25% 75%;               /* Nâu nhạt border */
+    --input: 30 25% 80%;
+    --ring: 345 75% 31%;                /* Đỏ đô ring */
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 39 100% 96%;
+    --sidebar-foreground: 345 75% 20%;
+    --sidebar-primary: 345 75% 31%;
+    --sidebar-primary-foreground: 39 100% 97%;
+    --sidebar-accent: 180 100% 27%;
+    --sidebar-accent-foreground: 39 100% 97%;
+    --sidebar-border: 30 25% 75%;
+    --sidebar-ring: 345 75% 31%;
+  }
+
+  .dark {
+    --background: 345 75% 10%;
+    --foreground: 39 100% 95%;
+
+    --card: 345 75% 12%;
+    --card-foreground: 39 100% 95%;
+
+    --popover: 345 75% 12%;
+    --popover-foreground: 39 100% 95%;
+
+    --primary: 345 75% 45%;
+    --primary-foreground: 39 100% 97%;
+
+    --secondary: 180 80% 35%;
+    --secondary-foreground: 39 100% 97%;
+
+    --muted: 345 30% 20%;
+    --muted-foreground: 39 50% 70%;
+
+    --accent: 180 80% 35%;
+    --accent-foreground: 39 100% 97%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 345 30% 25%;
+    --input: 345 30% 25%;
+    --ring: 345 75% 45%;
+    
+    --sidebar-background: 345 75% 8%;
+    --sidebar-foreground: 39 100% 95%;
+    --sidebar-primary: 345 75% 50%;
+    --sidebar-primary-foreground: 39 100% 97%;
+    --sidebar-accent: 180 80% 35%;
+    --sidebar-accent-foreground: 39 100% 97%;
+    --sidebar-border: 345 30% 25%;
+    --sidebar-ring: 345 75% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Vietnamese font optimization */
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  /* Smooth hover transitions for cards */
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .card-hover:hover {
+    @apply shadow-lg scale-[1.02] border-primary;
+  }
+
+  /* Brand gradient backgrounds */
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  }
+
+  /* Text gradient for headings */
+  .text-brand-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

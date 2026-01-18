@@ -1,0 +1,138 @@
+import { Layout } from "@/components/layout/Layout";
+import { Card, CardContent } from "@/components/ui/card";
+import { MapPin, Phone, Clock } from "lucide-react";
+
+// Store locations - replace with actual data
+const stores = [
+  {
+    id: 1,
+    name: "Cháo Nghêu O Hoèn - Chi nhánh 1",
+    address: "Số XX, Đường ABC, Quận 1, TP.HCM",
+    phone: "028 xxxx xxxx",
+    hours: "6:00 - 22:00",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4!2d106.69!3d10.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ2JzEyLjAiTiAxMDbCsDQxJzI0LjAiRQ!5e0!3m2!1svi!2svn!4v1234567890",
+  },
+  {
+    id: 2,
+    name: "Cháo Nghêu O Hoèn - Chi nhánh 2",
+    address: "Số YY, Đường DEF, Quận 3, TP.HCM",
+    phone: "028 xxxx xxxx",
+    hours: "6:00 - 22:00",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4!2d106.69!3d10.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ2JzEyLjAiTiAxMDbCsDQxJzI0LjAiRQ!5e0!3m2!1svi!2svn!4v1234567890",
+  },
+  {
+    id: 3,
+    name: "Cháo Nghêu O Hoèn - Chi nhánh 3",
+    address: "Số ZZ, Đường GHI, Quận 7, TP.HCM",
+    phone: "028 xxxx xxxx",
+    hours: "6:00 - 22:00",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4!2d106.69!3d10.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ2JzEyLjAiTiAxMDbCsDQxJzI0LjAiRQ!5e0!3m2!1svi!2svn!4v1234567890",
+  },
+];
+
+export default function StoresPage() {
+  return (
+    <Layout>
+      {/* Hero */}
+      <section className="bg-gradient-to-r from-primary to-secondary py-16 lg:py-24">
+        <div className="container text-center">
+          <h1 className="text-3xl font-bold text-primary-foreground md:text-4xl lg:text-5xl">
+            Hệ Thống Cửa Hàng
+          </h1>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/80">
+            Tìm cửa hàng Cháo Nghêu O Hoèn gần bạn nhất
+          </p>
+        </div>
+      </section>
+
+      {/* Store List */}
+      <section className="py-16">
+        <div className="container">
+          <div className="space-y-12">
+            {stores.map((store, index) => (
+              <Card
+                key={store.id}
+                className="overflow-hidden border-2 border-border"
+              >
+                <div className="grid lg:grid-cols-2">
+                  {/* Store Info */}
+                  <CardContent className={`p-8 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+                    <h2 className="text-xl font-bold text-primary md:text-2xl">
+                      {store.name}
+                    </h2>
+                    <div className="mt-6 space-y-4">
+                      <div className="flex items-start gap-3">
+                        <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
+                        <div>
+                          <p className="font-medium text-foreground">Địa chỉ</p>
+                          <p className="text-muted-foreground">{store.address}</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
+                        <div>
+                          <p className="font-medium text-foreground">Điện thoại</p>
+                          <a
+                            href={`tel:${store.phone.replace(/\s/g, '')}`}
+                            className="text-secondary hover:underline"
+                          >
+                            {store.phone}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <Clock className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
+                        <div>
+                          <p className="font-medium text-foreground">Giờ mở cửa</p>
+                          <p className="text-muted-foreground">{store.hours}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(store.address)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105"
+                    >
+                      <MapPin className="h-4 w-4" />
+                      Xem trên Google Maps
+                    </a>
+                  </CardContent>
+                  
+                  {/* Map */}
+                  <div className={`aspect-video lg:aspect-auto ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                    <iframe
+                      src={store.mapUrl}
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0, minHeight: '300px' }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={`Bản đồ ${store.name}`}
+                    />
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-card py-12">
+        <div className="container text-center">
+          <p className="text-muted-foreground">
+            Không tìm thấy cửa hàng gần bạn? Đừng lo, hãy đặt món online!
+          </p>
+          <a
+            href="/dat-mon"
+            className="mt-4 inline-flex items-center gap-2 rounded-full bg-secondary px-6 py-3 text-sm font-semibold text-secondary-foreground transition-transform hover:scale-105"
+          >
+            Đặt món ngay
+          </a>
+        </div>
+      </section>
+    </Layout>
+  );
+}

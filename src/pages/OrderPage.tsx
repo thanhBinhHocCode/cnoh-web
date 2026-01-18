@@ -23,7 +23,7 @@ const orderPlatforms = [
     id: "facebook",
     name: "Facebook",
     description: "Nhắn tin trực tiếp qua Fanpage",
-    url: "https://facebook.com",
+    url: "https://www.facebook.com/chaongheuohoen",
     color: "bg-blue-600 hover:bg-blue-700",
     icon: "📘",
   },
@@ -99,10 +99,10 @@ export default function OrderPage() {
             Hotline hoạt động từ 6:00 - 22:00 hàng ngày
           </p>
           <a
-            href="tel:1900xxxxxx"
+            href="tel:096 756 44 41"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-xl font-bold text-primary-foreground transition-transform hover:scale-105"
           >
-            📞 1900 xxxx xx
+            📞 096 756 44 41
           </a>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default function OrderPage() {
                   <div className="mb-4 text-4xl">🆓</div>
                   <h3 className="font-bold text-foreground">Miễn phí</h3>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    Miễn phí ship đơn từ 100k
+                    Miễn phí ship đơn từ 100k đối với Ahafood
                   </p>
                 </CardContent>
               </Card>

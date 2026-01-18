@@ -165,7 +165,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex flex-col items-center">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
-                    2020
+                    2023
                   </div>
                   <div className="h-full w-0.5 bg-primary/30" />
                 </div>
@@ -180,7 +180,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex flex-col items-center">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-secondary text-sm font-bold text-secondary-foreground">
-                    2022
+                    2024
                   </div>
                   <div className="h-full w-0.5 bg-secondary/30" />
                 </div>
@@ -195,7 +195,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex flex-col items-center">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
-                    2024
+                    2026
                   </div>
                 </div>
                 <div>

@@ -10,7 +10,7 @@ const featuredDishes = [
     id: 1,
     name: "Cháo Nghêu Đặc Biệt O Hoèn 1",
     price: "40.000đ",
-    image: "/placeholder.svg",
+    image: "/cháo.jpg",
     description: "Nghêu - Hàu - Sườn",
   },
   {
@@ -50,7 +50,7 @@ Hôm đó mình còn để quên đồ ở quán, mà mai lại có chuyến bay
     name: "Tori Min",
     rating: 5,
     comment: "Best place ever❣️❣️delicious and healthy ❣️ 10 from 10 😀",
-    avatar: "/placeholder.svg",
+    avatar: "/kháchOH.jpg",
   },
   {
     id: 3,

@@ -17,21 +17,21 @@ const featuredDishes = [
     id: 2,
     name: "Cháo Nghêu Đặc Biệt O Hoèn 2",
     price: "40.000đ",
-    image: "/placeholder.svg",
+    image: "/cháo.jpg",
     description: "Nghêu - Hàu - Tôm",
   },
   {
     id: 3,
     name: "Mì Tôm Nghêu",
     price: "40.000đ",
-    image: "/placeholder.svg",
+    image: "/cháo.jpg",
     description: "Mì tôm nấu cùng nghêu tươi ngon",
   },
   {
     id: 4,
     name: "Trà Quế Mật Ong",
     price: "35.000đ",
-    image: "/placeholder.svg",
+    image: "/traque.jpg",
     description: "Thức uống giải khát hoàn hảo",
   },
 ];
@@ -42,7 +42,7 @@ const testimonials = [
     name: "Liên Kim Long",
     rating: 5,
     comment: "Mình từng có dịp ghé quán và dùng bữa tối ở đây, cháo thật sự rất ngon, đặc biệc mình thích nhất là trà mật ong quế, một lịch trình must have khi mng ghé Đà Nẵng nhé. Hôm đó mình còn để quên đồ ở quán, mà mai lại có chuyến bay sáng sớm, may thay liên hệ được quán và đã được hỗ trợ nhận lại trong đêm, xin gửi lời cảm ơn thật nhiều đến O Hoèn ạ!",
-    avatar: "/placeholder.svg",
+    avatar: "/kháchOH.jpg",
   },
   {
     id: 2,

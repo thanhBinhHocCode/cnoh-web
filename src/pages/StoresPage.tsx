@@ -10,7 +10,7 @@ const stores = [
     address: "Số 08, Đường An Thượng 37, Quận Ngũ Hành Sơn, TP.Đà Nẵng",
     phone: "096 756 44 41",
     hours: "6:00 - 22:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.2846819293454!2d108.24235331020901!3d16.05071033987031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314217f0c8c65afb%3A0x9650b93284914a39!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4!5e0!3m2!1svi!2s!4v1768751827308!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.2846819293454!2d108.24235331020901!3d16.05071033987031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314217f0c8c65afb%3A0x9650b93284914a39!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4!5e0!3m2!1svi!2s!4v1768751827308!5m2!1svi!2s",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const stores = [
     address: "Số 152, Đường Triệu Nữ Vương, Quận Hải Châu, TP.Đà Nẵng",
     phone: "096 756 44 41",
     hours: "6:00 - 22:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.0616283782506!2d108.2141235102092!3d16.062291439560486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142191a81e19441%3A0x8a22f708db59d71a!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4gLSAxNTIgVHJp4buHdSBO4buvIFbGsMahbmc!5e0!3m2!1svi!2s!4v1768752032408!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.0616283782506!2d108.2141235102092!3d16.062291439560486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142191a81e19441%3A0x8a22f708db59d71a!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4gLSAxNTIgVHJp4buHdSBO4buvIFbGsMahbmc!5e0!3m2!1svi!2s!4v1768752032408!5m2!1svi!2s",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const stores = [
     address: "Số 87, Đường Lê Thanh Nghị, Quận Hải Châu, TP.Đà Nắng",
     phone: "096 756 44 41",
     hours: "6:00 - 22:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.4627352725297!2d108.2153050102087!3d16.041459840117604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142197dab3c19b7%3A0x2847ed3d3a0af2e!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4gLSA4NyBMw6ogVGhhbmggTmdo4buL!5e0!3m2!1svi!2s!4v1768752125591!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.4627352725297!2d108.2153050102087!3d16.041459840117604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142197dab3c19b7%3A0x2847ed3d3a0af2e!2zQ2jDoW8gbmdow6p1IE8gSG_DqG4gLSA4NyBMw6ogVGhhbmggTmdo4buL!5e0!3m2!1svi!2s!4v1768752125591!5m2!1svi!2s",
   },
 ];
 

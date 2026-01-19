@@ -41,7 +41,7 @@ const testimonials = [
     id: 1,
     name: "Liên Kim Long",
     rating: 5,
-    comment: "Mình từng có dịp ghé quán và dùng bữa tối ở đây, cháo thật sự rất ngon, đặc biệc mình thích nhất là trà mật ong quế, một lịch trình "must have" khi mng ghé Đà Nẵng nhé
+    comment: "Mình từng có dịp ghé quán và dùng bữa tối ở đây, cháo thật sự rất ngon, đặc biệc mình thích nhất là trà mật ong quế, một lịch trình must have khi mng ghé Đà Nẵng nhé
 Hôm đó mình còn để quên đồ ở quán, mà mai lại có chuyến bay sáng sớm, may thay liên hệ được quán và đã được hỗ trợ nhận lại trong đêm, xin gửi lời cảm ơn thật nhiều đến O Hoèn ạ!",
     avatar: "/placeholder.svg",
   },
